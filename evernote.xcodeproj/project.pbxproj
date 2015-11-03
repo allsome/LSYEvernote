@@ -212,7 +212,6 @@
 				TargetAttributes = {
 					EAD3008F1BCBE2D400D35902 = {
 						CreatedOnToolsVersion = 7.0.1;
-						DevelopmentTeam = 7N5YMH7JCG;
 					};
 					EAD300A31BCBE2D400D35902 = {
 						CreatedOnToolsVersion = 7.0.1;
