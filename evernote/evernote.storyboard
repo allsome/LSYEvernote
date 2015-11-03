@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--Note View Controller-->
+        <scene sceneID="NYS-Pb-F1O">
+            <objects>
+                <viewController storyboardIdentifier="Note" id="Snj-0J-0ZB" customClass="NoteViewController" customModule="evernote" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="D6G-p6-94O"/>
+                        <viewControllerLayoutGuide type="bottom" id="s4l-Tv-Bw6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NAK-3r-AOT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QHy-lW-25v">
+                                <rect key="frame" x="10" y="30" width="300" height="528"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A gay's confession" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GEY-S6-rJD">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="45"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="gdk-HV-qW5"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AGh-w6-F8H">
+                                        <rect key="frame" x="5" y="45" width="290" height="2"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2" id="F7K-P4-7T2"/>
+                                        </constraints>
+                                    </view>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="KF3-Wt-iwE">
+                                        <rect key="frame" x="0.0" y="47" width="300" height="481"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <string key="text">
+Throughout  my professional life, I’ve tried to maintain a basic level of privacy. I come from humble roots, and I don’t seek to draw attention to myself. Apple is already one of the most closely watched companies in the world, and I like keeping the focus on our products and the incredible things our customers achieve with them.
+
+At the same time, I believe deeply in the words of Dr. Martin Luther King, who said: “Life’s most persistent and urgent question is, ‘What are you doing for others?’” I often challenge myself with that question, and I’ve come to realize that my desire for personal privacy has been holding me back from doing something more important. That’s what has led me to today.
+
+For years, I’ve been open with many people about my sexual orientation. Plenty of colleagues at Apple know I’m gay, and it doesn’t seem to make a difference in the way they treat me. Of course, I’ve had the good fortune to work at a company that loves creativity and innovation and knows it can only flourish when you embrace people’s differences. Not everyone is so lucky.
+
+While I have never denied my sexuality, I haven’t publicly acknowledged it either, until now. So let me be clear: I’m proud to be gay, and I consider being gay among the greatest gifts God has given me.
+
+Being gay has given me a deeper understanding of what it means to be in the minority and provided a window into the challenges that people in other minority groups deal with every day. It’s made me more empathetic, which has led to a richer life. It’s been tough and uncomfortable at times, but it has given me the confidence to be myself, to follow my own path, and to rise above adversity and bigotry. It’s also given me the skin of a rhinoceros, which comes in handy when you’re the CEO of Apple.
+
+The world has changed so much since I was a kid. America is moving toward marriage equality, and the public figures who have bravely come out have helped change perceptions and made our culture more tolerant. Still, there are laws on the books in a majority of states that allow employers to fire people based solely on  their sexual orientation. There are many places where landlords can evict tenants for being gay, or where we can be barred from visiting sick partners and sharing in their legacies. Countless people, particularly kids, face fear and abuse everyday because of their sexual orientation.
+
+I don’t consider myself an activist, but I realize how much I’ve benefited from the sacrifice of others. So if hearing that the CEO of Apple is gay can help someone struggling to come to terms with who he or she is, or bring comfort to anyone who feels alone, or inspire people to insist on their equality, then it’s worth the trade-off with my own privacy.
+
+I’ll admit that this wasn’t an easy choice. Privacy remains important to me, and I’d like to hold on to a small amount of it. I’ve made Apple my life’s work, and I will continue to spend virtually all of my waking time focused on being the best CEO I can be. That’s what our employees deserve—and our customers, developers, shareholders, and supplier partners deserve it, too. Part of social progress is understanding that a person is not defined only by one’s sexuality, race, or gender. I’m an engineer, an uncle, a nature lover, a fitness nut, a son of the South, a sports fanatic, and many other things. I hope that people will respect my desire to focus on the things I’m best suited for and the work that brings me joy.
+
+The company I am so fortunate to lead has long advocated for human rights and equality for all. We’ve taken a strong stand in support of a workplace equality bill before Congress, just as we stood for marriage equality in our home state of California. And we spoke up in Arizona when that state’s legislature passed a discriminatory bill targeting the gay community. We’ll continue to fight for our values, and I believe that any CEO of this incredible company, regardless of race, gender, or sexual orientation, would do the same. And I will personally continue to advocate for equality for all people until my toes point up.
+
+When I arrive in my office each morning, I’m greeted by framed photos of Dr. King and Robert F. Kennedy. I don’t pretend that writing this puts me in their league. All it does is allow me to look at those pictures and know that I’m doing my part, however small, to help others. We pave the sunlit path toward justice together, brick by brick. This is my brick.</string>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="DevanagariSangamMN-Bold" family="Devanagari Sangam MN" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" keyboardAppearance="alert"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ieV-HS-d1s">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="45"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="ViU-f4-VF2"/>
+                                            <constraint firstAttribute="width" constant="100" id="gdo-9q-3Ud"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" image="back"/>
+                                        <connections>
+                                            <action selector="gpBack:" destination="Snj-0J-0ZB" eventType="touchUpInside" id="V4R-mc-APP"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="AGh-w6-F8H" firstAttribute="top" secondItem="GEY-S6-rJD" secondAttribute="bottom" id="3s3-7o-cFr"/>
+                                    <constraint firstItem="GEY-S6-rJD" firstAttribute="leading" secondItem="QHy-lW-25v" secondAttribute="leading" id="9ko-6s-ndd"/>
+                                    <constraint firstAttribute="trailing" secondItem="AGh-w6-F8H" secondAttribute="trailing" constant="5" id="Bvc-NS-zax"/>
+                                    <constraint firstAttribute="trailing" secondItem="KF3-Wt-iwE" secondAttribute="trailing" id="Fb2-jv-ouD"/>
+                                    <constraint firstItem="KF3-Wt-iwE" firstAttribute="leading" secondItem="QHy-lW-25v" secondAttribute="leading" id="JtJ-7e-v16"/>
+                                    <constraint firstAttribute="trailing" secondItem="GEY-S6-rJD" secondAttribute="trailing" id="M5U-ND-sZZ"/>
+                                    <constraint firstItem="GEY-S6-rJD" firstAttribute="top" secondItem="QHy-lW-25v" secondAttribute="top" id="RL5-wn-P58"/>
+                                    <constraint firstItem="AGh-w6-F8H" firstAttribute="leading" secondItem="QHy-lW-25v" secondAttribute="leading" constant="5" id="iDR-4b-vvb"/>
+                                    <constraint firstItem="KF3-Wt-iwE" firstAttribute="top" secondItem="AGh-w6-F8H" secondAttribute="bottom" id="tci-Xd-oaN"/>
+                                    <constraint firstAttribute="bottom" secondItem="KF3-Wt-iwE" secondAttribute="bottom" id="vHB-va-eFu"/>
+                                    <constraint firstItem="ieV-HS-d1s" firstAttribute="leading" secondItem="QHy-lW-25v" secondAttribute="leading" id="wcx-ie-TDu"/>
+                                    <constraint firstItem="ieV-HS-d1s" firstAttribute="top" secondItem="QHy-lW-25v" secondAttribute="top" id="wz4-9l-tkp"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.21960784310000001" green="0.20000000000000001" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="s4l-Tv-Bw6" firstAttribute="top" secondItem="QHy-lW-25v" secondAttribute="bottom" constant="10" id="Day-Qo-155"/>
+                            <constraint firstItem="QHy-lW-25v" firstAttribute="top" secondItem="D6G-p6-94O" secondAttribute="bottom" constant="10" id="Tci-xX-yja"/>
+                            <constraint firstItem="QHy-lW-25v" firstAttribute="leading" secondItem="NAK-3r-AOT" secondAttribute="leading" constant="10" id="oGS-jR-1T3"/>
+                            <constraint firstAttribute="trailing" secondItem="QHy-lW-25v" secondAttribute="trailing" constant="10" id="pAl-fB-baf"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="textView" destination="KF3-Wt-iwE" id="xyE-B4-8eF"/>
+                        <outlet property="titleLabel" destination="GEY-S6-rJD" id="cSZ-Sb-fj0"/>
+                        <outlet property="totalView" destination="QHy-lW-25v" id="c7o-hT-MgP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PZ1-hy-DYW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="202" y="134"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back" width="11" height="24"/>
+    </resources>
+</document>
