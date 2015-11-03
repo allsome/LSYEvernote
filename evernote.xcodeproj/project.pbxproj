@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA0175461BE8AC5200475EF1 /* 2015-11-03 11_52_16.gif in Resources */ = {isa = PBXBuildFile; fileRef = EA0175431BE8AC5200475EF1 /* 2015-11-03 11_52_16.gif */; };
+		EA0175471BE8AC5200475EF1 /* 2015-11-03 11_55_18.gif in Resources */ = {isa = PBXBuildFile; fileRef = EA0175441BE8AC5200475EF1 /* 2015-11-03 11_55_18.gif */; };
+		EA0175481BE8AC5200475EF1 /* 2015-11-03 11_59_48.gif in Resources */ = {isa = PBXBuildFile; fileRef = EA0175451BE8AC5200475EF1 /* 2015-11-03 11_59_48.gif */; };
 		EA96D1AF1BE38DAE00B4B672 /* CollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA96D1AE1BE38DAE00B4B672 /* CollectionViewLayout.swift */; };
 		EA96D1B41BE4A0EF00B4B672 /* evernote.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA96D1B31BE4A0EF00B4B672 /* evernote.storyboard */; };
 		EA96D1B61BE4A37200B4B672 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA96D1B51BE4A37200B4B672 /* NoteViewController.swift */; };
@@ -38,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA0175431BE8AC5200475EF1 /* 2015-11-03 11_52_16.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "2015-11-03 11_52_16.gif"; sourceTree = "<group>"; };
+		EA0175441BE8AC5200475EF1 /* 2015-11-03 11_55_18.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "2015-11-03 11_55_18.gif"; sourceTree = "<group>"; };
+		EA0175451BE8AC5200475EF1 /* 2015-11-03 11_59_48.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "2015-11-03 11_59_48.gif"; sourceTree = "<group>"; };
 		EA96D1AE1BE38DAE00B4B672 /* CollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewLayout.swift; sourceTree = "<group>"; };
 		EA96D1B31BE4A0EF00B4B672 /* evernote.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = evernote.storyboard; sourceTree = "<group>"; };
 		EA96D1B51BE4A37200B4B672 /* NoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
@@ -139,6 +145,9 @@
 		EAD300C61BCBFF2400D35902 /* other */ = {
 			isa = PBXGroup;
 			children = (
+				EA0175431BE8AC5200475EF1 /* 2015-11-03 11_52_16.gif */,
+				EA0175441BE8AC5200475EF1 /* 2015-11-03 11_55_18.gif */,
+				EA0175451BE8AC5200475EF1 /* 2015-11-03 11_59_48.gif */,
 				EAD3009A1BCBE2D400D35902 /* Assets.xcassets */,
 				EAD3009F1BCBE2D400D35902 /* Info.plist */,
 			);
@@ -248,9 +257,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA0175461BE8AC5200475EF1 /* 2015-11-03 11_52_16.gif in Resources */,
 				EAD3009B1BCBE2D400D35902 /* Assets.xcassets in Resources */,
+				EA0175481BE8AC5200475EF1 /* 2015-11-03 11_59_48.gif in Resources */,
 				EA96D1B41BE4A0EF00B4B672 /* evernote.storyboard in Resources */,
 				EA96D1BA1BE61C0700B4B672 /* CollectionViewCell.xib in Resources */,
+				EA0175471BE8AC5200475EF1 /* 2015-11-03 11_55_18.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
