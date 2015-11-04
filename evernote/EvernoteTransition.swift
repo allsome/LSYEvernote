@@ -66,7 +66,6 @@ class EvernoteTransition: NSObject,UIViewControllerAnimatedTransitioning,UIViewC
             }
             self.selectCell.backButton.alpha = self.isPresent ? 1.0 : 0.0
             self.selectCell.titleLine.alpha = self.isPresent ? 1.0 : 0.0
-            self.selectCell.textView.contentOffset = CGPointMake(0, 0)
             self.selectCell.textView.alpha = self.isPresent ? 1.0 : 0.0
             self.selectCell.frame = self.isPresent ? self.finalFrame : self.originFrame
             self.selectCell.layoutIfNeeded()
@@ -89,7 +88,6 @@ class EvernoteTransition: NSObject,UIViewControllerAnimatedTransitioning,UIViewC
     }
     
     func interactionControllerForDismissal(animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
-        self.isPresent = false
         return interactionController
     }
     
@@ -104,8 +102,10 @@ class EvernoteTransition: NSObject,UIViewControllerAnimatedTransitioning,UIViewC
             interactionController.updateInteractiveTransition(d)
         } else if recognizer.state == UIGestureRecognizerState.Ended {
             if recognizer.velocityInView(view).x > 0 {
+                print("finished")
                 interactionController.finishInteractiveTransition()
             } else {
+                print("cancel")
                 interactionController.cancelInteractiveTransition()
                 listViewController.presentViewController(panViewController, animated: false, completion: { () -> Void in
                     
