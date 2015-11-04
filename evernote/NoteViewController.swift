@@ -15,7 +15,7 @@ public protocol NoteViewControllerDelegate:NSObjectProtocol {
 class NoteViewController: UIViewController {
     internal weak var delegate: NoteViewControllerDelegate?
     internal var domainColor:UIColor = UIColor()
-    internal var titleName:String = ""
+    internal var titleName:String?
     @IBOutlet weak var totalView: UIView!
     @IBOutlet weak var textView: UITextView!
     @IBOutlet weak var titleLabel: UILabel!
