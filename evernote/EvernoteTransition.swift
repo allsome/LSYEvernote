@@ -102,10 +102,8 @@ class EvernoteTransition: NSObject,UIViewControllerAnimatedTransitioning,UIViewC
             interactionController.updateInteractiveTransition(d)
         } else if recognizer.state == UIGestureRecognizerState.Ended {
             if recognizer.velocityInView(view).x > 0 {
-                print("finished")
                 interactionController.finishInteractiveTransition()
             } else {
-                print("cancel")
                 interactionController.cancelInteractiveTransition()
                 listViewController.presentViewController(panViewController, animated: false, completion: { () -> Void in
                     
