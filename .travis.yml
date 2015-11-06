@@ -5,5 +5,5 @@ before_install:
 - if brew outdated | grep -qx xctool; then brew upgrade xctool; fi
 
 script: 
-- xctool clean build -project evernote.xcodeproj -scheme evernoteRelease
+- xctool clean build -project evernote.xcodeproj -scheme evernoteTests
 - xctool test -project evernote.xcodeproj -scheme evernoteTests
