@@ -31,7 +31,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AGh-w6-F8H">
-                                        <rect key="frame" x="5" y="45" width="290" height="2"/>
+                                        <rect key="frame" x="5" y="45" width="295" height="2"/>
                                         <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -85,7 +85,7 @@ When I arrive in my office each morning, I’m greeted by framed photos of Dr. K
                                 <constraints>
                                     <constraint firstItem="AGh-w6-F8H" firstAttribute="top" secondItem="GEY-S6-rJD" secondAttribute="bottom" id="3s3-7o-cFr"/>
                                     <constraint firstItem="GEY-S6-rJD" firstAttribute="leading" secondItem="QHy-lW-25v" secondAttribute="leading" id="9ko-6s-ndd"/>
-                                    <constraint firstAttribute="trailing" secondItem="AGh-w6-F8H" secondAttribute="trailing" constant="5" id="Bvc-NS-zax"/>
+                                    <constraint firstAttribute="trailing" secondItem="AGh-w6-F8H" secondAttribute="trailing" id="Bvc-NS-zax"/>
                                     <constraint firstAttribute="trailing" secondItem="KF3-Wt-iwE" secondAttribute="trailing" id="Fb2-jv-ouD"/>
                                     <constraint firstItem="KF3-Wt-iwE" firstAttribute="leading" secondItem="QHy-lW-25v" secondAttribute="leading" id="JtJ-7e-v16"/>
                                     <constraint firstAttribute="trailing" secondItem="GEY-S6-rJD" secondAttribute="trailing" id="M5U-ND-sZZ"/>

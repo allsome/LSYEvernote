@@ -33,14 +33,14 @@
                         <state key="normal" image="back"/>
                     </button>
                     <view alpha="0.0" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n4g-G6-qYz">
-                        <rect key="frame" x="5" y="45" width="310" height="2"/>
+                        <rect key="frame" x="5" y="45" width="315" height="2"/>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="2" id="eyR-U0-aEO"/>
                         </constraints>
                     </view>
-                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hCE-7T-Gg3">
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hCE-7T-Gg3">
                         <rect key="frame" x="0.0" y="47" width="320" height="57"/>
                         <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -78,7 +78,7 @@ When I arrive in my office each morning, I’m greeted by framed photos of Dr. K
                 <constraint firstItem="n4g-G6-qYz" firstAttribute="top" secondItem="4Bk-9j-JEk" secondAttribute="bottom" id="3ax-ie-48X"/>
                 <constraint firstAttribute="trailing" secondItem="hCE-7T-Gg3" secondAttribute="trailing" id="4DS-3Q-1R4"/>
                 <constraint firstItem="N3w-Cq-5HD" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="9GE-x1-Y9a"/>
-                <constraint firstAttribute="trailing" secondItem="n4g-G6-qYz" secondAttribute="trailing" constant="5" id="EJb-Mx-TfE"/>
+                <constraint firstAttribute="trailing" secondItem="n4g-G6-qYz" secondAttribute="trailing" id="EJb-Mx-TfE"/>
                 <constraint firstItem="n4g-G6-qYz" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="Lu2-Pq-Fwj"/>
                 <constraint firstItem="hCE-7T-Gg3" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="UDh-3L-yNd"/>
                 <constraint firstAttribute="bottom" secondItem="hCE-7T-Gg3" secondAttribute="bottom" id="dWw-qV-dBw"/>

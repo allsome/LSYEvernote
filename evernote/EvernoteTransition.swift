@@ -46,7 +46,6 @@ class EvernoteTransition: NSObject,UIViewControllerAnimatedTransitioning,UIViewC
         let addCons = isPresent ? selectCell.horizonallyCons : selectCell.labelLeadCons
         selectCell.removeConstraint(removeCons)
         selectCell.addConstraint(addCons)
-
         UIView.animateWithDuration(self.transitionDuration(transitionContext), delay: 0.0, options: UIViewAnimationOptions.CurveEaseInOut, animations: { () -> Void in
             for visibleCell:CollectionViewCell in self.visibleCells {
                 if visibleCell != self.selectCell {
@@ -78,7 +77,8 @@ class EvernoteTransition: NSObject,UIViewControllerAnimatedTransitioning,UIViewC
     
     // UIViewControllerTransitioningDelegate
     func animationControllerForPresentedController(presented: UIViewController, presentingController presenting: UIViewController, sourceController source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        self.isPresent = true
+        isPresent = true
+        selectCell.textView.scrollEnabled = false
         return self
     }
     
@@ -102,7 +102,7 @@ class EvernoteTransition: NSObject,UIViewControllerAnimatedTransitioning,UIViewC
             interactionController.updateInteractiveTransition(d)
         } else if recognizer.state == UIGestureRecognizerState.Ended {
             if recognizer.velocityInView(view).x > 0 {
-                interactionController.finishInteractiveTransition()
+                finishInteractive()
             } else {
                 interactionController.cancelInteractiveTransition()
                 listViewController.presentViewController(panViewController, animated: false, completion: { () -> Void in
@@ -117,7 +117,12 @@ class EvernoteTransition: NSObject,UIViewControllerAnimatedTransitioning,UIViewC
     func didClickGoBack() {
         panViewController.dismissViewControllerAnimated(true, completion: { () -> Void in
         })
+        finishInteractive()
+    }
+    
+    func finishInteractive() {
         interactionController.finishInteractiveTransition()
+        selectCell.textView.scrollEnabled = true
     }
     
 }
