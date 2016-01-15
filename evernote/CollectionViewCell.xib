@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D9c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -14,7 +14,6 @@
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Bk-9j-JEk">
                         <rect key="frame" x="15" y="0.0" width="54" height="45"/>
-                        <animations/>
                         <constraints>
                             <constraint firstAttribute="height" constant="45" id="qNN-VK-cSh"/>
                         </constraints>
@@ -24,7 +23,6 @@
                     </label>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N3w-Cq-5HD">
                         <rect key="frame" x="0.0" y="0.0" width="41" height="45"/>
-                        <animations/>
                         <constraints>
                             <constraint firstAttribute="width" constant="41" id="K3j-av-O9Q"/>
                             <constraint firstAttribute="height" constant="45" id="TfF-RH-auR"/>
@@ -34,7 +32,6 @@
                     </button>
                     <view alpha="0.0" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n4g-G6-qYz">
                         <rect key="frame" x="5" y="45" width="315" height="2"/>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="2" id="eyR-U0-aEO"/>
@@ -42,7 +39,6 @@
                     </view>
                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hCE-7T-Gg3">
                         <rect key="frame" x="0.0" y="47" width="320" height="57"/>
-                        <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <string key="text">
 Throughout  my professional life, I’ve tried to maintain a basic level of privacy. I come from humble roots, and I don’t seek to draw attention to myself. Apple is already one of the most closely watched companies in the world, and I like keeping the focus on our products and the incredible things our customers achieve with them.
@@ -69,10 +65,8 @@ When I arrive in my office each morning, I’m greeted by framed photos of Dr. K
                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences" keyboardAppearance="alert"/>
                     </textView>
                 </subviews>
-                <animations/>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
-            <animations/>
             <color key="backgroundColor" red="0.0" green="0.0" blue="0.99818921089172363" alpha="0.0" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="n4g-G6-qYz" firstAttribute="top" secondItem="4Bk-9j-JEk" secondAttribute="bottom" id="3ax-ie-48X"/>

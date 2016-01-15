@@ -40,6 +40,7 @@ class CollectionViewLayout: UICollectionViewFlowLayout {
     override func layoutAttributesForElementsInRect(rect: CGRect) -> [UICollectionViewLayoutAttributes]? {
         let offsetY = self.collectionView!.contentOffset.y
         let attrsArray = super.layoutAttributesForElementsInRect(rect)
+        print(attrsArray?.count)
         let collectionViewFrameHeight = self.collectionView!.frame.size.height;
         let collectionViewContentHeight = self.collectionView!.contentSize.height;
         let ScrollViewContentInsetBottom = self.collectionView!.contentInset.bottom;
@@ -62,4 +63,5 @@ class CollectionViewLayout: UICollectionViewFlowLayout {
         }
         return attrsArray;
     }
+    
 }
