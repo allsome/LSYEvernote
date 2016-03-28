@@ -17,7 +17,7 @@ class NoteViewController: UIViewController {
     internal var domainColor:UIColor = UIColor()
     internal var titleName:String?
     @IBOutlet weak var totalView: UIView!
-    @IBOutlet weak var textView: UITextView!
+    @IBOutlet weak var textView: UITextView!  
     @IBOutlet weak var titleLabel: UILabel!
 
     override func viewDidLoad() {
