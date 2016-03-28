@@ -27,7 +27,7 @@ class NoteViewController: UIViewController {
         totalView.backgroundColor = domainColor
         titleLabel.text = titleName
         textView.contentOffset = CGPointMake(0, 0)
-        let tap = UITapGestureRecognizer(target: self, action: "handleTapGesture:")
+        let tap = UITapGestureRecognizer(target: self, action: #selector(NoteViewController.handleTapGesture(_:)))
         self.totalView.addGestureRecognizer(tap)
     }
     
@@ -35,10 +35,8 @@ class NoteViewController: UIViewController {
         self.view.endEditing(true)
     }
     
-    @IBAction func gpBack(sender: AnyObject) {
-        if ((delegate?.respondsToSelector("didClickGoBack:")) != nil) {
+    @IBAction func goBack(sender: AnyObject) {
             delegate?.didClickGoBack()
-        }
     }
     
     override func preferredStatusBarStyle() -> UIStatusBarStyle {
