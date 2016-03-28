@@ -13,6 +13,7 @@ public protocol NoteViewControllerDelegate:NSObjectProtocol {
 }
 
 class NoteViewController: UIViewController {
+    
     internal weak var delegate: NoteViewControllerDelegate?
     internal var domainColor:UIColor = UIColor()
     internal var titleName:String?
@@ -36,7 +37,7 @@ class NoteViewController: UIViewController {
     }
     
     @IBAction func goBack(sender: AnyObject) {
-            delegate?.didClickGoBack()
+        delegate?.didClickGoBack()
     }
     
     override func preferredStatusBarStyle() -> UIStatusBarStyle {

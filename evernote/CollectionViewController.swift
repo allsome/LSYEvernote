@@ -13,10 +13,12 @@ private let topPadding:CGFloat = 20
 public let BGColor = UIColor(red: 56.0/255.0, green: 51/255.0, blue: 76/255.0, alpha: 1.0)
 
 class CollectionViewController: UIViewController,UICollectionViewDelegate, UICollectionViewDataSource {
+    
     private let colorArray = NSMutableArray()
     private let rowNumber = 15
     private let customTransition = EvernoteTransition()
     private let collectionView = UICollectionView(frame: CGRectMake(0, topPadding, screenWidth, screenHeight - topPadding), collectionViewLayout: CollectionViewLayout())
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = BGColor

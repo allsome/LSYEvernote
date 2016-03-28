@@ -9,6 +9,7 @@
 import UIKit
 
 class EvernoteTransition: NSObject,UIViewControllerAnimatedTransitioning,UIViewControllerTransitioningDelegate,NoteViewControllerDelegate {
+    
     internal var isPresent = true
     var selectCell:CollectionViewCell = CollectionViewCell()
     var visibleCells = [CollectionViewCell]()

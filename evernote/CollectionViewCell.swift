@@ -16,6 +16,7 @@ class CollectionViewCell: UICollectionViewCell {
     @IBOutlet internal weak var titleLabel: UILabel!
     @IBOutlet internal weak var labelLeadCons: NSLayoutConstraint!
     internal var horizonallyCons = NSLayoutConstraint()
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         self.layer.masksToBounds = true
