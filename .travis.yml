@@ -1,13 +1,12 @@
 language: objective-c
- 
 branches:
- only:
- - master
- 
-xcode_project: evernote.xcodeproj
-xcode_scheme: evernoteTests
-osx_image: xcode7.3
-xcode_sdk: iphonesimulator9.3 
- 
-script:
-- xcodebuild clean build test -project evernote.xcodeproj -scheme evernoteTests
+  only:
+    - master
+git:
+  submodules: false
+before_install: git submodule update --init --recursive
+script: bundle exec rake spec
+matrix:
+  include:
+    - osx_image: xcode7.3
+      env: TRAVIS_SWIFT_VERSION=2.1.1
