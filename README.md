@@ -6,7 +6,7 @@ This demo implements spring effect and note transition of [Evernote](https://www
 ![](https://github.com/allsome/LSYevernote/blob/master/Demonstrate.gif)
 
 #### Let me know
-Please send an email to oraclelsy@163.com if you 've been puzzled or inspired by any part of this demo,every **Star** or **Fork** means a lot to me.
+Please send an email to oraclelsy@163.com if you 've been puzzled or inspired by any part of this demo. By the way, every **Star** or **Fork** means a lot to me.
 
 ## Requirements
 - iOS 9.3
