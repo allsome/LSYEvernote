@@ -1,4 +1,5 @@
 ![](https://github.com/allsome/LSYevernote/blob/master/evernote/Assets.xcassets/logo.imageset/logo.png)
+[![Build Status](https://travis-ci.org/allsome/LSYEvernote.svg?branch=master)](https://travis-ci.org/allsome/LSYEvernote)
 # Intro
 This demo implements spring effect and note transition of [Evernote](https://www.evernote.com).
 ###### [龙的传人点这里](http://www.jianshu.com/p/dfb857763942)
