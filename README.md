@@ -1,10 +1,11 @@
 ![](https://github.com/allsome/LSYevernote/blob/master/evernote/Assets.xcassets/logo.imageset/logo.png)
 # Intro
-This demo implements spring effect and note transition of [Evernote](https://www.evernote.com),龙的传人点[这里](http://www.jianshu.com/p/dfb857763942)
-#### Let me know
-Please send an email to oraclelsy@163.com if you 've been puzzled or inspired by any part of this demo,every **Star** or **Fork** means a lot to me
+This demo implements spring effect and note transition of [Evernote](https://www.evernote.com),[龙的传人点这里](http://www.jianshu.com/p/dfb857763942)
 
 ![](https://github.com/allsome/LSYevernote/blob/master/Demonstrate.gif)
+
+#### Let me know
+Please send an email to oraclelsy@163.com if you 've been puzzled or inspired by any part of this demo,every **Star** or **Fork** means a lot to me
 
 ## Requirements
 - iOS 9.3
