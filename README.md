@@ -1,8 +1,38 @@
 ![](https://github.com/allsome/LSYevernote/blob/master/evernote/Assets.xcassets/logo.imageset/logo.png)
-##很多东西和那种事情是一样一样的，实现了以后发现也就那么回事,如果这个demo一不小心的对你有了帮助或者有任何不妥之处，真心希望能收到你的反馈。也许你根本不知道，你不经意间的follow、star、fork这些小动作，给我加的`BUFF`是你无法想象的。 
+# Intro
+This demo implements spring effect and note transition of [Evernote](https://www.evernote.com),龙的传人点[这里](http://www.jianshu.com/p/dfb857763942)
+#### Let me know
+Please send an email to oraclelsy@163.com if you 've been puzzled or inspired by any part of this demo,every **Star** or **Fork** means a lot to me
+
 ![](https://github.com/allsome/LSYevernote/blob/master/Demonstrate.gif)
 
-####[我的blog](http://allsome.love) [我的围脖](http://weibo.com/oraclelsy)
+## Requirements
+- iOS 9.3
+- Xcode 7.3
+- Swift 2.2
 
+## License
+
+	The MIT License (MIT)
+
+	Copyright © 2016 Allsome
+
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:
+
+	The above copyright notice and this permission notice shall be included in
+	all copies or substantial portions of the Software.
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+	THE SOFTWARE.
  
  
