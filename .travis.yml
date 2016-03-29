@@ -6,7 +6,7 @@ branches:
  
 xcode_project: evernote.xcodeproj
 xcode_scheme: evernoteTests
-osx_image: beta-xcode7.3
+osx_image: xcode7.3
 xcode_sdk: iphonesimulator9.3 
  
 script:
