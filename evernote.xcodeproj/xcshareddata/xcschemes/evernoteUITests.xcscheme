@@ -5,22 +5,6 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
-      <BuildActionEntries>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EAD300A31BCBE2D400D35902"
-               BuildableName = "evernoteTests.xctest"
-               BlueprintName = "evernoteTests"
-               ReferencedContainer = "container:evernote.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -32,9 +16,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EAD300A31BCBE2D400D35902"
-               BuildableName = "evernoteTests.xctest"
-               BlueprintName = "evernoteTests"
+               BlueprintIdentifier = "EAD300AE1BCBE2D400D35902"
+               BuildableName = "evernoteUITests.xctest"
+               BlueprintName = "evernoteUITests"
                ReferencedContainer = "container:evernote.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -52,7 +36,7 @@
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
