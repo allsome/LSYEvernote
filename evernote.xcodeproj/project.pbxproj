@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA8370801CA9A321007237A7 /* Demonstrate.gif in Resources */ = {isa = PBXBuildFile; fileRef = EA83707F1CA9A321007237A7 /* Demonstrate.gif */; };
+		EA5E010C1CAA4C55004C6A35 /* Demonstrate.gif in Resources */ = {isa = PBXBuildFile; fileRef = EA5E010B1CAA4C55004C6A35 /* Demonstrate.gif */; };
 		EA96D1AF1BE38DAE00B4B672 /* CollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA96D1AE1BE38DAE00B4B672 /* CollectionViewLayout.swift */; };
 		EA96D1B41BE4A0EF00B4B672 /* evernote.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA96D1B31BE4A0EF00B4B672 /* evernote.storyboard */; };
 		EA96D1B61BE4A37200B4B672 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA96D1B51BE4A37200B4B672 /* NoteViewController.swift */; };
@@ -39,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EA83707F1CA9A321007237A7 /* Demonstrate.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Demonstrate.gif; sourceTree = "<group>"; };
+		EA5E010B1CAA4C55004C6A35 /* Demonstrate.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Demonstrate.gif; sourceTree = "<group>"; };
 		EA96D1AE1BE38DAE00B4B672 /* CollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewLayout.swift; sourceTree = "<group>"; };
 		EA96D1B31BE4A0EF00B4B672 /* evernote.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = evernote.storyboard; sourceTree = "<group>"; };
 		EA96D1B51BE4A37200B4B672 /* NoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
@@ -141,7 +141,7 @@
 		EAD300C61BCBFF2400D35902 /* other */ = {
 			isa = PBXGroup;
 			children = (
-				EA83707F1CA9A321007237A7 /* Demonstrate.gif */,
+				EA5E010B1CAA4C55004C6A35 /* Demonstrate.gif */,
 				EAD3009A1BCBE2D400D35902 /* Assets.xcassets */,
 				EAD3009F1BCBE2D400D35902 /* Info.plist */,
 			);
@@ -252,7 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAD3009B1BCBE2D400D35902 /* Assets.xcassets in Resources */,
-				EA8370801CA9A321007237A7 /* Demonstrate.gif in Resources */,
+				EA5E010C1CAA4C55004C6A35 /* Demonstrate.gif in Resources */,
 				EA96D1B41BE4A0EF00B4B672 /* evernote.storyboard in Resources */,
 				EA96D1BA1BE61C0700B4B672 /* CollectionViewCell.xib in Resources */,
 			);
