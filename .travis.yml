@@ -1,9 +1,13 @@
 language: objective-c
-
-before_install: 
-- brew update
-- if brew outdated | grep -qx xctool; then brew upgrade xctool; fi
-
-script: 
-- xctool clean build -project evernote.xcodeproj -scheme evernoteTests
-- xctool test -project evernote.xcodeproj -scheme evernoteTests
+ 
+branches:
+ only:
+ - master
+ 
+xcode_project: evernote.xcodeproj
+xcode_scheme: evernoteTests
+osx_image: beta-xcode7.3
+xcode_sdk: iphonesimulator9.3 
+ 
+script:
+- xcodebuild clean build test -project evernote.xcodeproj -scheme evernoteTests
