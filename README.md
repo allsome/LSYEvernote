@@ -5,7 +5,8 @@
 [![DUB](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/allsome/LSYevernote/blob/master/LICENSE)
 ## Intro
 
-This demo implements two impressive effects of [Evernote](https://www.evernote.com) iOS version. It's common to make a CocoaPods spec, but unlike so many popular specs, I think their right usage scenarios are limited. If the demo make you better understand **UICollectionView** or **How to custom controller transition**
+This demo imitate two impressive effects of [Evernote](https://www.evernote.com) iOS version by using **UICollectionView** and **Controller Transition**, the implementation is not so complicated as it looks. And it's common to make a CocoaPods spec, but unlike so many popular specs, I think their right usage scenarios are limited. It could not be better if you find the project is helpful. By the way, every star or fork means a lot to me.
+
 
 ### Learn more
 * Read the blog in [Medium](http://www.jianshu.com/p/dfb857763942)
