@@ -12,7 +12,7 @@ This demo imitate two impressive effects of [Evernote](https://www.evernote.com)
 * Read the blog in [Medium](http://www.jianshu.com/p/dfb857763942)
 * 龙的传人点[这里](http://www.jianshu.com/p/dfb857763942)
 
-![](https://github.com/allsome/LSYevernote/blob/master/Demonstrate.gif)
+![](http://upload-images.jianshu.io/upload_images/961540-b5cd583b9f1ae6b4.gif?imageMogr2/auto-orient/strip)
 
 ### Let me know
 Please send an email to oraclelsy@163.com if you have any questions or suggestion about the demo.
