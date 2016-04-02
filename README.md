@@ -12,7 +12,7 @@ This demo imitate two impressive effects of [Evernote](https://www.evernote.com)
 
 
 ### Learn more
-* Read the blog in [Medium](http://www.jianshu.com/p/dfb857763942)
+* Read the blog in [Medium](https://medium.com/@allsome/interaction-in-evernote-5d3b08b2c359#.qyondcdo7)
 * 龙的传人点[这里](http://www.jianshu.com/p/dfb857763942)
 
 ### Let me know
