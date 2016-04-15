@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA5E010C1CAA4C55004C6A35 /* Demonstrate.gif in Resources */ = {isa = PBXBuildFile; fileRef = EA5E010B1CAA4C55004C6A35 /* Demonstrate.gif */; };
 		EA96D1AF1BE38DAE00B4B672 /* CollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA96D1AE1BE38DAE00B4B672 /* CollectionViewLayout.swift */; };
 		EA96D1B41BE4A0EF00B4B672 /* evernote.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA96D1B31BE4A0EF00B4B672 /* evernote.storyboard */; };
 		EA96D1B61BE4A37200B4B672 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA96D1B51BE4A37200B4B672 /* NoteViewController.swift */; };
@@ -252,7 +251,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAD3009B1BCBE2D400D35902 /* Assets.xcassets in Resources */,
-				EA5E010C1CAA4C55004C6A35 /* Demonstrate.gif in Resources */,
 				EA96D1B41BE4A0EF00B4B672 /* evernote.storyboard in Resources */,
 				EA96D1BA1BE61C0700B4B672 /* CollectionViewCell.xib in Resources */,
 			);
