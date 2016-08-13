@@ -27,21 +27,21 @@ class NoteViewController: UIViewController {
         totalView.layer.cornerRadius = 5.0
         totalView.backgroundColor = domainColor
         titleLabel.text = titleName
-        textView.contentOffset = CGPointMake(0, 0)
+        textView.contentOffset = CGPoint(x: 0, y: 0)
         let tap = UITapGestureRecognizer(target: self, action: #selector(NoteViewController.handleTapGesture(_:)))
         self.totalView.addGestureRecognizer(tap)
     }
     
-    func handleTapGesture(gesture: UITapGestureRecognizer) {
+    func handleTapGesture(_ gesture: UITapGestureRecognizer) {
         self.view.endEditing(true)
     }
     
-    @IBAction func goBack(sender: AnyObject) {
+    @IBAction func goBack(_ sender: AnyObject) {
         delegate?.didClickGoBack()
     }
     
-    override func preferredStatusBarStyle() -> UIStatusBarStyle {
-        return UIStatusBarStyle.LightContent
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
     }
 
 }

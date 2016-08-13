@@ -11,8 +11,8 @@ import UIKit
 public let horizonallyPadding:CGFloat = 10
 public let verticallyPadding:CGFloat = 10
 
-public let screenWidth = UIScreen.mainScreen().bounds.size.width
-public let screenHeight = UIScreen.mainScreen().bounds.size.height
+public let screenWidth = UIScreen.main.bounds.size.width
+public let screenHeight = UIScreen.main.bounds.size.height
 
 public let cellWidth = screenWidth - 2 * horizonallyPadding
 private let cellHeight:CGFloat = 45
@@ -23,31 +23,31 @@ class CollectionViewLayout: UICollectionViewFlowLayout {
     
     override init() {
         super.init()
-        itemSize = CGSizeMake(cellWidth, cellHeight)
-        headerReferenceSize = CGSizeMake(screenWidth, verticallyPadding)
+        itemSize = CGSize(width: cellWidth, height: cellHeight)
+        headerReferenceSize = CGSize(width: screenWidth, height: verticallyPadding)
     }
     
     required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)!
-        itemSize = CGSizeMake(cellWidth, cellHeight)
-        headerReferenceSize = CGSizeMake(screenWidth, verticallyPadding)
+        itemSize = CGSize(width: cellWidth, height: cellHeight)
+        headerReferenceSize = CGSize(width: screenWidth, height: verticallyPadding)
     }
     
-    override func shouldInvalidateLayoutForBoundsChange(newBounds: CGRect) -> Bool {
+    override func shouldInvalidateLayout(forBoundsChange newBounds: CGRect) -> Bool {
         return true
     }
     
-    override func layoutAttributesForElementsInRect(rect: CGRect) -> [UICollectionViewLayoutAttributes]? {
+    override func layoutAttributesForElements(in rect: CGRect) -> [UICollectionViewLayoutAttributes]? {
         let offsetY = self.collectionView!.contentOffset.y
-        let attrsArray = super.layoutAttributesForElementsInRect(rect)
+        let attrsArray = super.layoutAttributesForElements(in: rect)
         let collectionViewFrameHeight = self.collectionView!.frame.size.height;
         let collectionViewContentHeight = self.collectionView!.contentSize.height;
         let ScrollViewContentInsetBottom = self.collectionView!.contentInset.bottom;
         let bottomOffset = offsetY + collectionViewFrameHeight - collectionViewContentHeight - ScrollViewContentInsetBottom
-        let numOfItems = self.collectionView!.numberOfSections()
+        let numOfItems = self.collectionView!.numberOfSections
         
         for attr:UICollectionViewLayoutAttributes in attrsArray! {
-            if (attr.representedElementCategory == UICollectionElementCategory.Cell) {
+            if (attr.representedElementCategory == UICollectionElementCategory.cell) {
                 var cellRect = attr.frame;
                 if offsetY <= 0 {
                     let distance = fabs(offsetY) / SpringFactor;
