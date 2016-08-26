@@ -8,7 +8,7 @@
 
 ## Intro
 
-This demo imitate two impressive effects of [Evernote](https://www.evernote.com) iOS version by using **UICollectionView** and **Controller Transition**, the implementation is not so complicated as it looks. And it's common to make a [CocoaPods](https://guides.cocoapods.org/making/index.html) spec, but unlike so many popular specs, I think their right usage scenarios are limited. It could not be better if you find the project is helpful. By the way, every **Star** or **Fork** means a lot to me.
+This demo imitate two impressive effects of [Evernote](https://www.evernote.com) iOS version by using **UICollectionView** and **Controller Transition**, the implementation is not so complicated as it looks. And it's common to make a [CocoaPods](https://guides.cocoapods.org/making/index.html) spec, but unlike so many popular specs, I think their right usage scenarios are limited. It could not be better if you think the project is helpful. By the way, every **Star** or **Fork** means a lot to me.
 
 ### CHANGELOG
 *  Clone repo refer to CHANGELOG
