@@ -7,16 +7,6 @@
 ![](http://upload-images.jianshu.io/upload_images/961540-b5cd583b9f1ae6b4.gif?imageMogr2/auto-orient/strip)
 
 
-### CHANGELOG
-*  Clone repo refer to CHANGELOG
-
-### Learn more
-* Read the blog in [Medium](https://medium.com/@allsome/interaction-in-evernote-5d3b08b2c359#.qyondcdo7)
-* [这里](http://www.jianshu.com/p/dfb857763942)
-
-### Let me know
-Please contact oraclelsy@163.com if you have any questions or suggestion about the demo.
-
 
  
  
